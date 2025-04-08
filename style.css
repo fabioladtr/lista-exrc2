@@ -1,26 +1,19 @@
 body{
-    font-family:"Gemunu Libre", sans-serif;
+    font-family: "Red Hat Text", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style:normal;
     background-color: #f9f9f9;
     color: #D2B48C;
     margin: 20px;
     padding: 40px;
     line-height: 2;
-    background-image: url('images/flag_china.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    color: #000000;
+    color: #8B0000;
     padding: 40px;
-    text-align: right;
-
-}
-
-h1{
-    color: #0056b3;
-    font-size: 2em;
+    text-align: left;
 }
 
 p{
@@ -34,4 +27,49 @@ a{
 
 a:hover {
     text-decoration: underline;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 40px;
+  }
+  
+  .texto {
+    flex: 1;
+    color: #333;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 2.5px 5px;
+    background-color:#D2691E;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #FF8C00;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+
+  .imagem {
+    flex: 1;
+    height: 100%;
+    background-image: url('images/gato_scratch.png');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border-radius: 10px;
   }
