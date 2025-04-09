@@ -39,7 +39,7 @@ a:hover {
     padding: 40px;
   }
   
-  .texto {
+  .text {
     flex: 1;
     color: #333;
   }
@@ -64,7 +64,7 @@ a:hover {
   }
   
 
-  .imagem {
+  .image {
     flex: 1;
     height: 100%;
     background-image: url('images/gato_scratch.png');
